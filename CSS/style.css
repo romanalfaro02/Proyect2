@@ -296,11 +296,6 @@ nav a{
     color:#335661;
 }
 
-@media(max-width <= 296vh){
-    .cards{
-        width: 260px;
-}
-}
 
 @media(max-width : 313px){
     nav a{
@@ -350,5 +345,11 @@ nav a{
     @media(max-width : 322px){
         .box{
             width: 200px;
+        }
+    }
+
+    @media screen and (max-width : 294px) {
+        .card{
+            width: 260px;
         }
     }
